@@ -1,13 +1,20 @@
+
 .common_contents_inner {
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
 }
 
+body {
+    background-color: #1a2125;
+}
+
+
 header {
     border-bottom: 1px solid #e0e5f0;
     padding-top: 2rem;
     padding-bottom: 1.5rem;
+    background-color: white;
 }
 
 header h1 .logo {
@@ -53,12 +60,12 @@ header .policy {
 #main_contents_wrap .intro_app .device::before{
     content: '';
     position: absolute;
-    top: 7px;
-    left: 12px;
-    border-radius: 20px;
+    top: 2%;
+    left: 5%;
+    border-radius: 1.6rem;
     width: 93%;
     height: 96%;
-    box-shadow: 4px 4px 20px #666;
+    box-shadow: 0.2rem 0.2rem 1.1rem rgba(1, 1, 1, 0.4);
 }
 
 
@@ -119,6 +126,8 @@ footer {
         align-items: center;
         text-align: center;
     }
+
+
 
     #main_contents_wrap .intro_app .explain_text {
         width: 100%;
