@@ -75,7 +75,6 @@ header .policy {
 
 .intro_app .explain_text ul li {
     margin-bottom: 1.1rem;
-
 }
 
 
@@ -114,12 +113,6 @@ footer {
         font-size: 19px;
     }
 
-    .common_contents_inner {
-
-    }
-
-
-
     #main_contents_wrap .intro_app{ 
         display: flex;
         flex-direction: column;
@@ -142,7 +135,6 @@ footer {
     .common_contents_inner {
         padding-left: 1.2rem;
         padding-right: 1.2rem;
-
     }
 
     header .policy {
